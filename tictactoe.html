@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Star-Trek-Toe</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="trek">Star-Trek-Toe</h1>
+      <h3><span class="messages"></h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <img id="NC1701" width="160" height="150" border-radius="20" src="images/sm1701.png">
+        <button type="submit" id="newGame" class="btn btn-success button">New Game!</button>
+        <button type="submit" id="reset" class="btn btn-warning button">Reset!</button>
+        <img id="D7" width="160" height="150" src="images/smD7.png">
+      </div>
+        <div class="row">
+          <canvas class="field" id="1,1" width="150" height="150" token="None"></canvas>
+          <canvas class="field" id="1,2" width="150" height="150" token="None"></canvas>
+          <canvas class="field" id="1,3" width="150" height="150" token="None"></canvas>
+        </div>
+        <div class="row">
+          <canvas class="field" id="2,1" width="150" height="150" token="None"></canvas>
+          <canvas class="field" id="2,2" width="150" height="150" token="None"></canvas>
+          <canvas class="field" id="2,3" width="150" height="150" token="None"></canvas>
+        </div>
+        <div class="row">
+          <canvas class="field" id="3,1" width="150" height="150" token="None"></canvas>
+          <canvas class="field" id="3,2" width="150" height="150" token="None"></canvas>
+          <canvas class="field" id="3,3" width="150" height="150" token="None"></canvas>
+        </div>
+    </div>
+  </body>
+</html>
